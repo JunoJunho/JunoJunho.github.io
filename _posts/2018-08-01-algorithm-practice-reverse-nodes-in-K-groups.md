@@ -4,7 +4,7 @@ title: Reverse Nodes in K Groups
 subtitle: Solution for reverseNodesInKGroups
 gh-repo: junojunho/JunoJunho.github.io
 gh-badge: [star, fork, follow]
-tags: [algorithm]
+tags: [Algorithm]
 ---
 
 ## Problem name: isTreeSymmetric

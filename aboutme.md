@@ -1,16 +1,28 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Welcome to onboarding
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+`To infinity and beyond`
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+## Profile
 
-What else do you need?
+Server-side Software Engineer at [LINE](https://line.me)
 
-### my history
+## Work Experience
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- 2018.12 ~ Server-side Software Engineer at [LINE](https://line.me)
+- 2017.2 ~ 2018.12 Cloud IaaS R&D at [TmaxCloud](https://kr.tmaxsoft.com/main.do)
+
+## Presentations
+
+### 2018
+#### JWT와 Flask, PyJWT로 인증 API 서버 만들기 (PyconKR 2018)
+<script async class="speakerdeck-embed" data-id="ad312cba052c4f4390b23983d5ef45c5" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+## Skills
+
+Programming: Java, Python  
+Human-Languages: English, Korean  
+Current Interest: Japanese, Advanced Java, Mobile Programming Language, Kaggle

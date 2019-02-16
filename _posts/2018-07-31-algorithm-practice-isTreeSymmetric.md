@@ -4,7 +4,7 @@ title: Is Tree Symmetric
 subtitle: Solution for IsTreeSymmetric
 gh-repo: junojunho/JunoJunho.github.io
 gh-badge: [star, fork, follow]
-tags: [algorithm]
+tags: [Algorithm]
 ---
 
 ## Problem name: isTreeSymmetric

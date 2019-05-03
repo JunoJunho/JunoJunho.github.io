@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Difference between knowing and doing
+title: 아는 것과 해본 것의 차이
 subtitle: 기본적으로 해본 걸 더 좋아합니다.
 gh-repo: junojunho/JunoJunho.github.io
 gh-badge: [star, fork, follow]

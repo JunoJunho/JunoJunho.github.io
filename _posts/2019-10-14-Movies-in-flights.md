@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Algorithm practice - Movies in Flights
-subtitle: Level up my Coding Skill
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: Level up my Coding Skill
+toc: true
+toc_sticky: true
 tags: [Python, Coding Interview]
 ---
 

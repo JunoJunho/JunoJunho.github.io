@@ -1,10 +1,13 @@
 ---
-layout: post
 title: 이직 1개월 회고
-subtitle: 있지 말아야 할 회사에서 있어도 좋은 회사로의 이직
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: 있지 말아야 할 회사에서 있어도 좋은 회사로의 이직
+
+toc: true
+toc_sticky: true
+
 tags: [Software Engineering]
+cateogries: 
+ - Software Engineering
 ---
 
 ## 있지 말아야 할 회사에서 있어도 좋은 회사로

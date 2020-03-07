@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Thought on Code Review
-subtitle: 코드 리뷰에 대한 내 거친 생각과 불안한 눈빛
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: 코드 리뷰에 대한 내 거친 생각과 불안한 눈빛
+toc: true
+toc_sticky: true
 tags: [Software Engineering, Code Review]
 ---
 

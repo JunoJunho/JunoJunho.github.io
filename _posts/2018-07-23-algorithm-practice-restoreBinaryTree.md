@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Restore Binary Tree
-subtitle: Solution for Restore Binary Tree
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: Solution for Restore Binary Tree
+toc: true
+toc_sticky: true
 tags: [Algorithm]
 ---
 

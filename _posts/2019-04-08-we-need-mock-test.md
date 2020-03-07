@@ -1,9 +1,8 @@
 ---
-layout: post
 title: We need mock test!
-subtitle: 개발자라면 알았으면 하는 Mock 테스트
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: 개발자라면 알았으면 하는 Mock 테스트
+toc: true
+toc_sticky: true
 tags: [Software Engineering, Testing]
 ---
 

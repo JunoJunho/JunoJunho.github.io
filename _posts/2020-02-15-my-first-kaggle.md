@@ -1,10 +1,11 @@
 ---
-layout: post
 title: My First Kaggle
-subtitle: 내 맘대로 정리해보는 첫 캐글 느낌
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: 내 맘대로 정리해보는 첫 캐글 느낌
+toc: true
+toc_sticky: true
+
 tags: [Kaggle, Data Science]
+
 ---
 
 #### 요새 좀 새로운게 필요해졌습니다.

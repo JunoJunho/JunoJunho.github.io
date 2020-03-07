@@ -1,7 +1,12 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem "github-pages", '163', group: :jekyll_plugins
+gem "json"
+gem "jekyll"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-paginate"
+gem "jekyll-gist"
 
-# enable tzinfo-data for local build
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-gem 'jekyll-paginate'
+gem 'jekyll-include-cache'
+
+gem "minimal-mistakes-jekyll"

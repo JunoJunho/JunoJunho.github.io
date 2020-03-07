@@ -1,9 +1,8 @@
 ---
-layout: post
 title: 첫 장애 회고
-subtitle: Blame 보다는 Prevention
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: Blame 보다는 Prevention
+toc: true
+toc_sticky: true
 tags: [Software Engineering, Outage]
 ---
 

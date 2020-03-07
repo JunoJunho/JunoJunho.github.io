@@ -1,9 +1,8 @@
 ---
-layout: post
 title: 개발자가 비동기를 배워야 하는 이유
-subtitle: 어렵지만 매력적이고 필수인 비동기
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: 어렵지만 매력적이고 필수인 비동기
+toc: true
+toc_sticky: true
 tags: [Software Engineering, Async, Java]
 ---
 

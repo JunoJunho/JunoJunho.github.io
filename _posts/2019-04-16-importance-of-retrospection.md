@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Importance of Retrospection
-subtitle: 회고를 통해서 한 단계 발전한 사람 되기
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: 회고를 통해서 한 단계 발전한 사람 되기
+toc: true
+toc_sticky: true
 tags: [Software Engineering]
 ---
 

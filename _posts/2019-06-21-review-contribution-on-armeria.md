@@ -1,9 +1,8 @@
 ---
-layout: post
 title: 아르메리아 컨트리뷰션 회고
-subtitle: 오픈소스와 함께 성장하기
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: 오픈소스와 함께 성장하기
+toc: true
+toc_sticky: true
 tags: [Software Engineering, Async, Java]
 ---
 

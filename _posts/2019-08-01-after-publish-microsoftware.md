@@ -1,9 +1,8 @@
 ---
-layout: post
 title: 마이크로 소프트웨어 기고 후기
-subtitle: 똥글을 또 내버렸습니다
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: 똥글을 또 내버렸습니다
+toc: true
+toc_sticky: true
 tags: [Software Engineering, Learning, Review]
 ---
 

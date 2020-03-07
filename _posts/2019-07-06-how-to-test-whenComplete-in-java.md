@@ -1,9 +1,8 @@
 ---
-layout: post
 title: 자바 비동기 - AsyncTaskExecutor 테스트하기
-subtitle: whenCompleteAsync 콜백은 어떻게 테스트 해야할까
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: whenCompleteAsync 콜백은 어떻게 테스트 해야할까
+toc: true
+toc_sticky: true
 tags: [Software Testing, Async, Java]
 ---
 

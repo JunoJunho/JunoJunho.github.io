@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Spring에서의 bean-init, static, constructor, @PostConstruct
-subtitle: 미묘한 Ordering
-gh-repo: junojunho/JunoJunho.github.io
-gh-badge: [star, fork, follow]
+excerpt: 미묘한 Ordering
+toc: true
+toc_sticky: true
 tags: [Java, Spring]
 ---
 

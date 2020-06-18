@@ -9,11 +9,12 @@ author_profile: true
 
 ## Profile
 
-Server-side Software Engineer at [LINE](https://line.me)
+Software Engineer at [Amazon](https://amazon.com)
 
 ## Work Experience
 
-- 2018.12 ~ Server-side Software Engineer at [LINE](https://line.me)
+- 2020.07 ~ Software Development Engineer at [Amazon](https://amazon.com)
+- 2018.12 ~ 2020.04 Server-side Software Engineer at [LINE](https://line.me)
 - 2017.2 ~ 2018.12 Cloud IaaS R&D at [TmaxCloud](https://kr.tmaxsoft.com/main.do)
 
 ## Presentations

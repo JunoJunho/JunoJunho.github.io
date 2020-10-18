@@ -11,6 +11,8 @@ author_profile: true
 
 Software Engineer at [Amazon](https://amazon.com)
 
+**참고** 블로그에 포스팅되는 모든 내용은 재직중인 회사(Amazon)과 관련 없는 개인의 의견입니다.
+
 ## Work Experience
 
 - 2020.07 ~ Software Development Engineer at [Amazon](https://amazon.com)

@@ -1,5 +1,5 @@
 ---
-title: Problem A Kick_Start
+title: 2020 Google Kick Start Round G - Kick_Start
 excerpt: Google Kick Start 2020 Round G
 
 toc: true

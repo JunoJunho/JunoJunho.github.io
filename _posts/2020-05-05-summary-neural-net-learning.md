@@ -4,6 +4,8 @@ excerpt: 책보고 내맘대로 정리하기 3
 
 toc: true
 toc_sticky: true
+categories:
+  - Learning
 tags: [Deep Learning, Summary, Deep Learning from Scratch]
 last_modified_at: 2020-05-05T01:45:00
 ---

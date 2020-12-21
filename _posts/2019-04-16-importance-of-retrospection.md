@@ -3,6 +3,8 @@ title: Importance of Retrospection
 excerpt: 회고를 통해서 한 단계 발전한 사람 되기
 toc: true
 toc_sticky: true
+categories:
+  - Software Engineering
 tags: [Software Engineering]
 ---
 

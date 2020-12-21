@@ -3,6 +3,8 @@ title: Reverse Nodes in K Groups
 excerpt: Solution for reverseNodesInKGroups
 toc: true
 toc_sticky: true
+categories:
+  - Algorithm
 tags: [Algorithm]
 ---
 

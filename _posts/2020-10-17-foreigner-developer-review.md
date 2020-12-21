@@ -4,6 +4,8 @@ excerpt: 이방인 개발자의 삶
 
 toc: true
 toc_sticky: true
+categories:
+  - Software Engineering
 tags: [Software Engineering, Amazon]
 last_modified_at: 2020-10-17T22:55:00
 ---

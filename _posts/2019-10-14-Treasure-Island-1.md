@@ -3,6 +3,8 @@ title: Algorithm practice - Treasure Island 1
 excerpt: Level up my Coding Skill
 toc: true
 toc_sticky: true
+categories:
+  - Algorithm
 tags: [Python, Coding Interview]
 ---
 

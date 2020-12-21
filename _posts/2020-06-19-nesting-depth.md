@@ -3,6 +3,8 @@ title: Codejam Solution Archive - Nesting Depth
 excerpt: Level up my Coding Skill
 toc: true
 toc_sticky: true
+categories:
+  - Algorithm
 tags: [Python, Codejam, Google, Algorithm]
 last_modified_at: 2020-06-19T15:17:00
 ---

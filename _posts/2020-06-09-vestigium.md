@@ -3,6 +3,8 @@ title: Codejam Solution Archive - Vestigium
 excerpt: Level up my Coding Skill
 toc: true
 toc_sticky: true
+categories:
+  - Algorithm
 tags: [Python, Codejam, Google, Algorithm]
 ---
 

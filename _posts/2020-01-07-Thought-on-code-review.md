@@ -3,6 +3,8 @@ title: Thought on Code Review
 excerpt: 코드 리뷰에 대한 내 거친 생각과 불안한 눈빛
 toc: true
 toc_sticky: true
+categories:
+  - Software Engineering
 tags: [Software Engineering, Code Review]
 ---
 

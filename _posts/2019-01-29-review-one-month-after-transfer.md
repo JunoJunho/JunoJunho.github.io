@@ -6,8 +6,8 @@ toc: true
 toc_sticky: true
 
 tags: [Software Engineering]
-cateogries: 
- - Software Engineering
+categories:
+  - Software Engineering
 ---
 
 ## 있지 말아야 할 회사에서 있어도 좋은 회사로

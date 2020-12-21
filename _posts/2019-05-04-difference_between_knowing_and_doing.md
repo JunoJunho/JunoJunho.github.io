@@ -3,6 +3,8 @@ title: 아는 것과 해본 것의 차이
 excerpt: 기본적으로 해본 걸 더 좋아합니다.
 toc: true
 toc_sticky: true
+categories:
+  - Software Engineering
 tags: [Software Engineering, Recruit]
 ---
 

@@ -4,6 +4,8 @@ excerpt: 1년을 재택하게 생겼습니다.
 
 toc: true
 toc_sticky: true
+categories:
+  - Software Engineering
 tags: [Amazon, Software Engineering]
 last_modified_at: 2020-10-24T21:48:00
 ---

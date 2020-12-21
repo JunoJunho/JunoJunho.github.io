@@ -4,6 +4,8 @@ excerpt: 일한지 3년만에 터득한 방법
 
 toc: true
 toc_sticky: true
+categories:
+  - Learning
 tags: [git]
 last_modified_at: 2020-03-21T22:58:00
 ---

@@ -3,6 +3,8 @@ title: 자바 비동기 - AsyncTaskExecutor 테스트하기
 excerpt: whenCompleteAsync 콜백은 어떻게 테스트 해야할까
 toc: true
 toc_sticky: true
+categories:
+  - Learning
 tags: [Software Testing, Async, Java]
 ---
 

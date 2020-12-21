@@ -5,6 +5,8 @@ excerpt: WFH이기 때문에 발생하는 불필요한 비용
 toc: true
 toc_sticky: true
 tags: [Amazon, Software Engineering]
+categories:
+  - Software Engineering
 last_modified_at: 2020-11-04T22:35:00
 ---
 

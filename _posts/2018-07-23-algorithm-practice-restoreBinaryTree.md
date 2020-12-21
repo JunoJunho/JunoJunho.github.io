@@ -3,6 +3,8 @@ title: Restore Binary Tree
 excerpt: Solution for Restore Binary Tree
 toc: true
 toc_sticky: true
+categories:
+  - Algorithm
 tags: [Algorithm]
 ---
 

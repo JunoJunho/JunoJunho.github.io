@@ -3,6 +3,8 @@ title: We need mock test!
 excerpt: 개발자라면 알았으면 하는 Mock 테스트
 toc: true
 toc_sticky: true
+categories:
+  - Software Engineering
 tags: [Software Engineering, Testing]
 ---
 

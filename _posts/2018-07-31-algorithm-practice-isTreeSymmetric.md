@@ -3,6 +3,8 @@ title: Is Tree Symmetric
 excerpt: Solution for IsTreeSymmetric
 toc: true
 toc_sticky: true
+categories:
+  - Algorithm
 tags: [Algorithm]
 ---
 

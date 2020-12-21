@@ -4,6 +4,8 @@ excerpt: Google Kick Start 2020 Round G
 
 toc: true
 toc_sticky: true
+categories:
+  - Algorithm
 tags: [Python, Coding Interview]
 last_modified_at: 2020-10-20T22:09:00
 ---

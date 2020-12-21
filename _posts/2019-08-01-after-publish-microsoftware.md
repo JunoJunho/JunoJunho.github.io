@@ -3,6 +3,8 @@ title: 마이크로 소프트웨어 기고 후기
 excerpt: 똥글을 또 내버렸습니다
 toc: true
 toc_sticky: true
+categories:
+  - Software Engineering
 tags: [Software Engineering, Learning, Review]
 ---
 

@@ -3,6 +3,8 @@ title: 첫 장애 회고
 excerpt: Blame 보다는 Prevention
 toc: true
 toc_sticky: true
+categories:
+  - Software Engineering
 tags: [Software Engineering, Outage]
 ---
 

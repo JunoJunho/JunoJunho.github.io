@@ -3,6 +3,8 @@ title: Spring에서의 bean-init, static, constructor, @PostConstruct
 excerpt: 미묘한 Ordering
 toc: true
 toc_sticky: true
+categories:
+  - Learning
 tags: [Java, Spring]
 ---
 

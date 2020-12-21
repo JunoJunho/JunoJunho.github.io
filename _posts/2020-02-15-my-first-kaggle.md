@@ -3,7 +3,8 @@ title: My First Kaggle
 excerpt: 내 맘대로 정리해보는 첫 캐글 느낌
 toc: true
 toc_sticky: true
-
+categories:
+  - Learning
 tags: [Kaggle, Data Science]
 
 ---

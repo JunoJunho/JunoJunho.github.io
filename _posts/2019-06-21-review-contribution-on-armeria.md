@@ -3,6 +3,8 @@ title: 아르메리아 컨트리뷰션 회고
 excerpt: 오픈소스와 함께 성장하기
 toc: true
 toc_sticky: true
+categories:
+  - Software Engineering
 tags: [Software Engineering, Async, Java]
 ---
 

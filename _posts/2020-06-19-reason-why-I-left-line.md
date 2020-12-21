@@ -4,6 +4,8 @@ excerpt: 그리고 새 직장을 얻게 된 과정
 
 toc: true
 toc_sticky: true
+categories:
+  - Software Engineering
 tags: [Software Engineering, Recruiting, Thought]
 last_modified_at: 2020-06-19T01:46:00
 ---

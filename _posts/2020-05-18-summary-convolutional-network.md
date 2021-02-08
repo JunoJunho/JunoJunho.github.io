@@ -21,10 +21,10 @@ last_modified_at: 2020-05-18T19:00:00
 - 이 계층들을 이용하여 어떻게 CNN을 만드는지 살펴보자
 - 이전까지의 신경망은 인접한 계층의 모든 뉴런과 결합이 되어 있었음
   - 이를 완전 연결 (fully-connected, 전결합)이라고도 하며, 완전히 연결된 계층을 Affine 계층으로 구현했었음
-- ![Affine_nuerual_net](../img/post/200518/Affine_nuerual_net.png)
+- ![Affine_nuerual_net](../../img/post/200518/Affine_nuerual_net.png)
   - 그림처럼 Affine 계층과 ReLU 계층을 거쳐서 마지막에는 Softmax 함수를 사용해서 결과값을 얻어 (어떤 값일지 예측하는 확률을 얻었음)
 - 그렇다면 CNN의 구조는 어떨까?
-- ![Conv_neural_net](../img/post/200518/Conv_neural_net.png)
+- ![Conv_neural_net](../../img/post/200518/Conv_neural_net.png)
   - 새로운 합성곱 계층과 풀링 계층이 추가된다.
   - CNN의 계층은 Conv-ReLU-(Pooling)의 흐름으로 연결된다 (풀링이 생략되기도 한다)
   - Affine-ReLU가 Conv-ReLU-(Pooling)으로 바뀌었다.
@@ -53,7 +53,7 @@ last_modified_at: 2020-05-18T19:00:00
 - 합성곱 계층에서 합성곱연산을 처리한다.
   - 이미지 처리에서 말하는 필터연산에 해당
 
-![convolution_multiplication_example](../img/post/200518/convolution_multiplication_example.png)
+![convolution_multiplication_example](../../img/post/200518/convolution_multiplication_example.png)
 
 - 왼쪽 항을 입력 데이터, 합성곱으로 곱해지는 항을 필터라고 하며, 커널이라고도 칭하기도 한다.
 - 합성곱 연산은 윈도우를 일정 간격으로 이동해 가며 입력 데이터를 적용한다.
@@ -61,7 +61,7 @@ last_modified_at: 2020-05-18T19:00:00
   - e.g., 회색으로 칠해진 항 (1 * 2 + 2 * 0 + 3 * 1 + ... 0 * 0 + 1 * 2 = 15)
 - 완전연결 신경망에서는 가중치 매개변수와 편향이 존재하는데, CNN에서는 필터의 매개변수가 가중치에 해당한다.
 - 편향까지 더하면
-  - ![convolution_multiplication_example_2](../img/post/200518/convolution_multiplication_example_2.png)
+  - ![convolution_multiplication_example_2](../../img/post/200518/convolution_multiplication_example_2.png)
   - 위와 같이 이루어지며, 편향은 항상 하나의 값 (1 X 1) 만 존재한다.
 
 ### 7.2.3 패딩
@@ -89,7 +89,7 @@ last_modified_at: 2020-05-18T19:00:00
 - 이전까지 2차원 형상의 합성곱 연산을 살펴보았었다.
 - 3차원은 그러면 어떻게 계산해야할까?
 - 3차원 데이터는 입력 데이터와 필터의 합성곱 연산을 채널마다 수행하고 그 결과를 더해서 하나의 출력으로 얻을 수 있다.
-- ![multi_dimension_convolution](../img/post/200518/multi_dimension_convolution.jpg)
+- ![multi_dimension_convolution](../../img/post/200518/multi_dimension_convolution.jpg)
 - 3차원 연산에서 주의할 점은 입력 데이터의 채널 수와 필터의 채널 수가같아야 한다는 점이다.
   - 필터 크기 자체는 원하는 값으로 설정할 수 있음 (단 모든 채널 필터의 크기가 같아야 한다.)
 
@@ -97,11 +97,11 @@ last_modified_at: 2020-05-18T19:00:00
 
 - 3차원의 연산은 데이터와 필터를 직육면체 블록이라고 생각하면 쉽다.
 - 3차원 데이터는 (채널, 높이, 너비) 순서로 써보자
-- ![block_convolution](../img/post/200518/block_convolution.jpg)
+- ![block_convolution](../../img/post/200518/block_convolution.jpg)
 - 이 예제에서의 출력데이터는 한장의 맵이 된다.
 - 다수의 채널을 내보내려면 어떻게 해야할까?
   - 필터(가중치)를 다수 사용하는 것이다.
-- ![block_multiple_convolution_filter](../img/post/200518/block_multiple_convolution_filter.jpg)
+- ![block_multiple_convolution_filter](../../img/post/200518/block_multiple_convolution_filter.jpg)
   - 필터 FN개를 적용하면 출력 맵도 FN개가 생성된다.
   - 그에 맞추어서 편향의 갯수도 FN개 만큼 늘려주어야 한다.
   - 형상이 다른 블록의 덧셈은 넘파이의 브로드캐스트 기능으로 쉽게 구현할 수 있다.
@@ -116,7 +116,7 @@ last_modified_at: 2020-05-18T19:00:00
 ## 7.3 풀링 계층
 
 - 풀링은 세로 가로 방향의 공간을 줄이는 연산이다.
-- ![max pooling](../img/post/200518/max pooling.png)
+- ![max pooling](../../img/post/200518/max pooling.png)
   - 위와 같이 2 X 2 최대 풀링을 스트라이드 2로 처리하는 순서이다. 최대 풀링은 최댓값을 구하는 연산으로 2 X 2는 대상 영역의 크기를 뜻한다.
   - 즉, 2X2 영역에서 가장 큰 값을 꺼내오는 작업을 수행한다.
 - 최대 풀링 외에도 평균 값을 가져오는 평균 풀링 기법도 존재한다.
@@ -153,7 +153,7 @@ last_modified_at: 2020-05-18T19:00:00
 - for 구문을 사용하면 성능이 떨어진다는 단점도 있다. (numpy에서는 원소 접근 시에 for 문을 사용하지 않는 것이 바람직하다)
 - 이번 절에서는 im2col이라는 편의 함수를 사용해보자
   - 입력 데이터를 필터링(가중치 계산)하기 좋게 전개하는 함수이다.
-- ![im2_pic](../img/post/200518/im2_pic.jpg)
+- ![im2_pic](../../img/post/200518/im2_pic.jpg)
   - 위의 그림과 같이 필터를 적용하는 영역 단위로 한줄로 늘어놓는다.
 - 필터 영역이 겹치게 되면 im2col로 전개한 이후에 원소의 수가 원래 블록의 수보다 많아지게 된다.
   - 그래서 메모리를 더 소비하는 단점이 있다.
@@ -322,7 +322,7 @@ class SimpleConvNet:
 ### 7.6.1 1번째 층의 가중치 시각화하기
 
 - https://github.com/oreilly-japan/deep-learning-from-scratch/blob/master/ch07/visualize_filter.py
-- ![what_conv_see](../img/post/200518/what_conv_see.png)
+- ![what_conv_see](../../img/post/200518/what_conv_see.png)
 
 - 학습 전에 필터는 무작위로 초기화 되고 규칙성이 잘 안보인다.
 - 학습을 마친 필터는 약간의 규칙성이 있는 이미지가 되었다.

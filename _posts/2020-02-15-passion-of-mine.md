@@ -42,7 +42,7 @@ last_modified_at: 2020-02-15T08:06:00-05:00
 
 그러다가 그 분이 등장합니다.
 
-![steve_jobs](../img/post/200215/jobs.jpg)
+![steve_jobs](../../img/post/200215/jobs.jpg)
 
 그 분이 아이폰을 들고 나왔습니다.
 
@@ -54,7 +54,7 @@ last_modified_at: 2020-02-15T08:06:00-05:00
 그리고 1학년 2학기에 저는 운명처럼 한 책을 만났습니다.
 -------
 
-![passion_book](../img/post/200215/passion_book.jpeg)
+![passion_book](../../img/post/200215/passion_book.jpeg)
 
 그 당시에 도서관에서 근로 장학생으로 일하고 있었죠. (고등학교떄는 워낙 책을 안읽다가 대학생때는 뭔가 도서관에 끌려서.. ~~아싸라 그랬던거 아닙니다~~)
 

@@ -98,7 +98,7 @@ plt.show()
 
 - 다음과 같이 그려진다
 
-<img src="../img/post/200427/step_function.png" alt="step_function" style="zoom:50%;" />
+<img src="../../img/post/200427/step_function.png" alt="step_function" style="zoom:50%;" />
 
 ### 3.2.4 시그모이드 함수 구현하기
 
@@ -120,7 +120,7 @@ plt.ylim(-0.1, 1.1)
 plt.show()
 ```
 
-<img src="../img/post/200427/sigmoid.png" alt="sigmoid" style="zoom:50%;" />
+<img src="../../img/post/200427/sigmoid.png" alt="sigmoid" style="zoom:50%;" />
 
 ### 3.2.5 시그모이드 함수와 계단 함수 비교
 
@@ -199,7 +199,7 @@ np.dot(A, B) # dot == multiply
 
 ### 3.3.3 신경망에서의 행렬 곱
 
-![matrix_neural_net](../img/post/200427/matrix_neural_net.jpg)
+![matrix_neural_net](../../img/post/200427/matrix_neural_net.jpg)
 
 - 하나의 노드에서 다음 노드로의 신경망을 행렬로 표현할 수 있다.
 - X와 W와 Y 행렬의 형상을 주의깊게 살펴보자

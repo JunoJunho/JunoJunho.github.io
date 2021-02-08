@@ -25,7 +25,7 @@ tags: [Kaggle, Data Science]
 
 사실 가입은 2년전에 했었는데, 만들기만 해놓고 이런 저런 이유로 접속도 하지 않고 있었습니다.
 
-![1](../img/post/200215/kaggle/1.png)
+![1](../../img/post/200215/kaggle/1.png)
 부끄러운 저의 프로필 (저 사진은 대체..)
 
 새롭게 해야할 사항들을 업적과 같이 만들어 놓아서 하나하나 클리어 하는 마음으로 프로필을 완성하고, 역시나 모두가 제일 처음 해본다는 [타이타닉](https://www.kaggle.com/c/titanic) 예제를 도전해보기로 하였습니다.
@@ -36,7 +36,7 @@ tags: [Kaggle, Data Science]
 
 #### 첫 Submission
 
-![2](../img/post/200215/kaggle/2.png)
+![2](../../img/post/200215/kaggle/2.png)
 
 따라만 했을 뿐인데 데이터를 가공해서 모델 만들고 Submission까지 했습니다.
 

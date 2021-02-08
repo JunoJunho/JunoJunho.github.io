@@ -34,14 +34,14 @@ last_modified_at: 2020-05-18T23:36:00
     - https://github.com/oreilly-japan/deep-learning-from-scratch/blob/master/ch08/deep_convnet_params.pkl 를 사용하여 직접 불러오자
 - 정확도는 99.38%가 된다.
 - 인식에 실패한 이미지는 
-  - ![wrong_mnist](../img/post/200518/wrong_mnist.jpg)
+  - ![wrong_mnist](../../img/post/200518/wrong_mnist.jpg)
   - 로 왼쪽 위가 인식 숫자, 오른쪽 아래가 실제 값이다.
   - 사람이 보기에도 아리송 한 것들로 딥러닝 네트워크가 실제 사람에 준하는 실정확도를 갖추었다.
 
 ### 8.1.2 정확도를 더 높이려면?
 
 - What is the class of this image? (https://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#4d4e495354) 를 방문해보면
-  - ![what is the class of this image](../img/post/200518/what is the class of this image.png)
+  - ![what is the class of this image](../../img/post/200518/what is the class of this image.png)
   - 어떤 모델이 가장 정확도가 높은지 알 수 있다.
   - Neural Network이나 Deep, Convolutional 등의 심층 신경망 관련 키워드가 많이 등장한다.
   - 대부분 합성곱 계층 2개에 완전연결 계층 2개 정도인 신경망
@@ -81,7 +81,7 @@ last_modified_at: 2020-05-18T23:36:00
 
 ### 8.2.3 GoogLeNet
 
-- ![GoogLeNet](../img/post/200518/GoogLeNet.png)
+- ![GoogLeNet](../../img/post/200518/GoogLeNet.png)
   - 그림에서 보듯이 세로방향 깊이뿐 아니라 가로방향도 깊다는 점이 특징이다.
 - 가로 방향에는 '폭'이 있으며, 인셉션 구조라고 한다.
   - 크기가 다른 필터를 여러개 적용하여 그 결과를 결합한다.

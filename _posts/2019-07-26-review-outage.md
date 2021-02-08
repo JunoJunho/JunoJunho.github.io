@@ -21,7 +21,7 @@ tags: [Software Engineering, Outage]
 
 하지만, 사실은 그렇지 않았습니다.
 
-![first_issue](../img/post/0726/0726_img_01.png)
+![first_issue](../../img/post/0726/0726_img_01.png)
 
 이 때부터 등에 식은땀이 나기 시작했습니다.
 

@@ -59,7 +59,7 @@ class SGD:
 - 최솟값은 (0,0) 이지만, 대부분의 기울기가 최솟값을 가리키지 않는다는 점이다.
 - 이와 같은 수식에 SGD를 적용하면 
 
-![SGD_cons](../img/post/200516/SGD_cons.jpg)
+![SGD_cons](../../img/post/200516/SGD_cons.jpg)
 
 - 위와 같이 지그재그로 비효율적으로 움직이게 된다.
 - 이러한 단점을 개선해주는 모멘텀, AdaGrad, Adam 등의 방법이 존재한다.
@@ -161,18 +161,18 @@ class AdaGrad:
   - 층이 5개가 있으며 각 층의 뉴렁느 100개씩 사용, 입력 데이터로 1000개를 정규분포로 무작위 생성하여 신경망에 흘림
   - 가중치의 분포는 표준편차가 1인 정규분포를 사용, 표준편차를 바꿔가면서 활성화 값들의 분포가 어떻게 바뀌는지 확인
 
-- ![sigmoid_histogram](../img/post/200516/sigmoid_histogram.png)
+- ![sigmoid_histogram](../../img/post/200516/sigmoid_histogram.png)
 
   - 각층의 활성화 값들이 0과 1에 치우쳐 분포됨을 알 수 있음
     - 출력이 0에 가까워지면 미분은 0에 다가감, 그래서 데이터가 0과 1에 치우쳐 분포하게 되면 역전파의 기울기 값이 점점 작아지다가 사라지게 됨
     - 이러한 현상을 기울기 소실 (gradient vanishing)이라 함
   - 가중치의 표준 편차를 0.01로 바꾸어 실험해보자
-  - ![sigmoid_histogram_2](../img/post/200516/sigmoid_histogram_2.png)
+  - ![sigmoid_histogram_2](../../img/post/200516/sigmoid_histogram_2.png)
     - 이번에는 0.5 부근에 집중 되었음
     - 활성화 값이 치우친 것은 표현력 관점에서 좋지 않다는 것 (다수의 뉴런이 거의 같은 값을 출력한다.)
   - 딥러닝에서 표준적으로 사용하는 다른 초깃값인 Xavier 초깃값을 써보자
     - 각 층의 활성화값을 광범위하게 분포시킬 목적으로 가중치의 적절한 분포를 찾고자 하였음 이에 $$ 1 \over \sqrt{n} $$ 인 분포를 사용하면 된다는 결론을 만들어 냄
-  - ![sigmoid_histogram_3](../img/post/200516/sigmoid_histogram_3.png)
+  - ![sigmoid_histogram_3](../../img/post/200516/sigmoid_histogram_3.png)
     - 층이 깊어지면서 형태가 다소 일그러지지만, 확실히 넓게 분포됨
     - 오른쪽으로 갈수록 일그러지는 분포는 탄젠트 함수를 활성화 함수로 사용하면 더 나은 효과를 얻게 됨
 
@@ -182,7 +182,7 @@ class AdaGrad:
   - 반면 ReLU는 특화된 초깃값을 사용하는것을 권장함
     - 이 값을 He 초깃값이라고 한다.
   - 앞계층의 노드가 n개 일때, 표준편차가 $$ \sqrt{2 \over n} $$ 인 정규분포를 사용하는 것이 좋다.
-  - ![relu_histogram](../img/post/200516/relu_histogram.png)
+  - ![relu_histogram](../../img/post/200516/relu_histogram.png)
     - He 초깃값은 모든 층에서 균일하게 분포됨
 
 ### 6.2.4 MNIST 데이터셋으로 본 가중치 초깃값 비교
@@ -214,7 +214,7 @@ class AdaGrad:
 ### 6.3.2 배치 정규화의 효과
 
 - MNIST 데이터 셋을 사용하여 배치 정규화 계층을 사용할 때와 그렇지 않을 때의 학습 진도가 어떻게 달라지는지 확인해보자.
-- ![batch_norm](../img/post/200516/batch_norm.jpg)
+- ![batch_norm](../../img/post/200516/batch_norm.jpg)
 - 배치 정ㄷ규화를 사용하여 학습의 정확도를 빠르게 높일 수 있다.
 
 ## 6.4 바른 학습을 위해
@@ -248,7 +248,7 @@ class AdaGrad:
   - 훈련 때의 은닉층 뉴런을 무작위로 골라 삭제한다.
   - 삭제된 뉴런은 신호를 전달하지 않는다.
   - 시험 때에는 모든 뉴런의 신호를 전달하게 된다. (단, 각 뉴런 출력에 훈련 때 삭제한 비율을 곱하여 출력한다.)
-- ![drop_out](../img/post/200516/drop_out.png)
+- ![drop_out](../../img/post/200516/drop_out.png)
 
 ```python
 class Dropout:

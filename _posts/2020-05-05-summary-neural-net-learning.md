@@ -208,7 +208,7 @@ def numerical_diff(f, x):
 
 - 왜 f(x+h) 와 f(x-h)의 차이를 사용해야 할까?
 
-![numerical_diff](../img/post/200505/numerical_diff.jpg)
+![numerical_diff](../../img/post/200505/numerical_diff.jpg)
 
 - 위의 그림과 같이 수치 미분에는 오차가 포함됨
 - 오차를 줄이기 위해서 (x+h)와 (x-h) 일 때의 함수 f의 차분을 계산하는 방법을 쓰기도 함

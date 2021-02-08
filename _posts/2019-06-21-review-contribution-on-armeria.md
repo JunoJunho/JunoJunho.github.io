@@ -17,7 +17,7 @@ tags: [Software Engineering, Async, Java]
 
 #### 이슈를 만들고, 우선 이 기능이 의도된 동작인지 물어보기
 
-![first_issue](../img/post/0621/0621_img_01.png)
+![first_issue](../../img/post/0621/0621_img_01.png)
 
 (당연히 현재는 close 되었지만) 이슈를 생성해서 이게 맞는 건지, 아닌지 물어보게 되었고, 관련해서 repo 관리하시는 분들이 관련해서 여러가지 제안을 해주시게 되었습니다.
 
@@ -25,7 +25,7 @@ tags: [Software Engineering, Async, Java]
 
 #### 그래서 PR을 보냈습니다.
 
-![first_pr](../img/post/0621/0621_img_02.png)
+![first_pr](../../img/post/0621/0621_img_02.png)
 
 이렇게 보내니, 모두들 몰랐다며 감사를 표해주셨죠. 하지만 이 이슈를 만들고 PR을 작성하는데 게으르게 있다 보니 이미 해당 부분이 바뀌는 breaking change가 발생했고, 이 버그가 자연스럽게 해결되는 현상이 발생했습니다.
 
@@ -38,7 +38,7 @@ tags: [Software Engineering, Async, Java]
 
 두번째 PR을 작성하는 계기는 Armeria 관련 기능을 살펴보던 도중에 궁금한 점이 생겨서, 또 역시 이슈를 만들게 되었습니다. 보통 기능에 대한 설명이 부족하면, 아 이 doc이 부실하네~ 라고 끝나게 되지만, 오픈소스는 다르게 내가 만들어 낼 수 있습니다. 그리고 그 내용을 실제로 기능을 작성한 사람에게 리뷰를 받을 수 있다는 점이 가장 획기적인 내용이라고 할 수 있죠.
 
-![second_issue](../img/post/0621/0621_img_03.png)
+![second_issue](../../img/post/0621/0621_img_03.png)
 
 네 제 예상이 맞았습니다. 비록 제 핀트는 벗어났지만, 제가 컨트리 뷰션을 할 기회가 나왔습니다.
 
@@ -46,7 +46,7 @@ tags: [Software Engineering, Async, Java]
 
 이야기 된 대로 문서를 수정해서 PR을 작성했습니다.
 
-![second_pr](../img/post/0621/0621_img_04.png)
+![second_pr](../../img/post/0621/0621_img_04.png)
 
 조금 이야기를 나누며 수정사항을 추가적으로 반영해서 결국 merge 되었습니다. 제가 작성한 수정사항을 저 문서를 읽는 누구나 그 내용을 읽게 된 것이죠. 한편으로는 정말 짜릿한 경험이었습니다.
 

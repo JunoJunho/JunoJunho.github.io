@@ -105,7 +105,7 @@ def NAND(x1, x2):
 - 하지만 여러개의 퍼셉트론을 쌓아서 시도해 볼 수 있다.
 - 여러개의 퍼셉트론이 개층으로 쌓인 전체 퍼셉트론을 다층 퍼셉트론 (multi-layer perceptron)으로 정의한다.
 
-![XOR_using_other_gates](../img/post/200420/XOR_using_other_gates.png)
+![XOR_using_other_gates](../../img/post/200420/XOR_using_other_gates.png)
 
 - 위와 같이 XOR 게이트도 여러개의 게이트를 조합해서 구현이 가능하다.
 

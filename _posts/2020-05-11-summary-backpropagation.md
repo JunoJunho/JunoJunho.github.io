@@ -28,12 +28,12 @@ last_modified_at: 2020-05-11T15:13:00
 - 간단한 문제를 계산 그래프로 풀어보자
 - 예를 들어, A군이 슈퍼에서 1개에 100원인 사과 2개를 샀다. 부가세 10%를 포함한다고 할 때, 지불 금액은?
 
-![simple_graph_1](../img/post/200511/simple_graph_1.png)
+![simple_graph_1](../../img/post/200511/simple_graph_1.png)
 
 - 위의 그래프처럼 처음 사과 100원이 'X2' 노드로 이어지고, 200원이 되어 다시 부가세 'X1.1'의 그래프로 흐르게 되어 최종 답은 220원이 된다.
 - "A군이 사과를 2개, 귤을 3개 샀고, 사과는 1개의 100원, 귤은 150원이며, 부가세 10%를 포함한다면 지불 금액은?"
 
-![simple_graph_2](../img/post/200511/simple_graph_2.png)
+![simple_graph_2](../../img/post/200511/simple_graph_2.png)
 
 - 덧셈 노드 +를 추가했고, 곱셈 노드와 수치 입력을 분리했다.
 - 회로에 전류가 흐르듯 왼쪽에서 오른쪽으로 계산 결과가 흐르게 되며, 마지막 노드로 가게 되면 끝이 나게 된다.
@@ -59,7 +59,7 @@ last_modified_at: 2020-05-11T15:13:00
   - 가장 큰 이유는 '미분'을 효율적으로 계산할 수 있다는 점
   - 사과 문제로 돌아가서 사과 가격(x)이 오르면 최종 금액(L)에 어떤 영향이 미칠지 알고 싶을 때, $${\partial L \over {\partial x}}$$ 을 구하면 된다. (사과가 가격이 아주 조금 올랐을 때 지불 금액이 얼마나 증가하는가)
 
-![simple_graph_3](../img/post/200511/simple_graph_3.png)
+![simple_graph_3](../../img/post/200511/simple_graph_3.png)
 
 - 역전파는 순전파와는 반대의 화살표로 표시
 - 국소적 미분을 전달하고 그 값은 화살표 아래에 적는다.
@@ -97,7 +97,7 @@ last_modified_at: 2020-05-11T15:13:00
 
 - 연쇄 법칙을 다시 계산 그래프로 나타내보자
 
-![simple_graph_4](../img/post/200511/simple_graph_4.png)
+![simple_graph_4](../../img/post/200511/simple_graph_4.png)
 
 - 오른쪽에서 왼쪽으로 신호를 전파
 - 역전파의 계산 절차에서는 노드로 들어온 신호의 편미분을 곱한 뒤 다음 노드로 전달
@@ -275,7 +275,7 @@ class Affine:
 - 소프트맥스 함수는 입력 값을 정규화 한다.
 - 소프트 맥스 함수에다가 손실 함수인 교차 엔트로피 오차도 포함하여 softmax-with-loss 계층을 정의한다.
 
-![soft_max_with_loss](../img/post/200511/soft_max_with_loss.jpg)
+![soft_max_with_loss](../../img/post/200511/soft_max_with_loss.jpg)
 
 - 위의 그림으로 보듯이 엄청 복잡하다.
 - Softmax 함수로부터 각 값에 대한 확률 값(y<sub>1</sub>,y<sub>2</sub>,y<sub>3</sub>)을 받고, 정답 (t<sub>1</sub>t<sub>2</sub>,t<sub>3</sub>)에 대하여 손실 값을 구한 L을 출력한다.

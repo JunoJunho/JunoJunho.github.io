@@ -13,10 +13,11 @@ last_modified_at: 2021-09-06T15:14:00
 # First Year Retrospection at Amazon
 
 ### #0. Preface
+----
 
 I joined Amazon Canada at July, 2020. It was somehow pretty complicated year and somehow simple year in my first year at Amazon. Life in Canada and work at this Company are far way different than I had expected.
 
-![my_badge_info](../img/post/210906/my_badge_info.JPG)
+![my_badge_info](../../img/post/210906/my_badge_info.JPG)
 
 This post is my personal opinion. There is no relatiopnship between this article and the company's opinion.
 
@@ -25,6 +26,7 @@ Due to COVID-19, my life also got effect. I was supposed to join the company at 
 This post describes how I felt over the past year.
 
 ### #1. English is always an issue.
+----
 
 Except the people who born in the country which uses English as a native language, everyone has a difficulty on utilizing English. This also happens to me either. Since every FAANG companies use English their default communication language, I have no choice but speaking in English. However, if I am influent with this language, my communication cost to let my colleagues understand what I thought is relatively high than people who are fluent with the English.
 
@@ -33,6 +35,7 @@ To get a permanent residence in Canada, I need to get sufficient score for well-
 FYI, because FANNG companies are the global company, which means all around people are hired at this company, there are plenty of intonations making you confuse. For example, the word 'back' has various pronunciations ('bak', 'back', bakk', etc. :)) 
 
 ### #2. J.D. does not always match with real work life.
+----
 
 When I had an interview with my current co-workers in Korea, they described my job as somehow enormous data management and platform features. It sounds like the combination of data science and backend engineering. That's why I chose this offer with abandoning my comfort home country and moving to this country (yeah, I know it. I want to experience at this global company.).
 
@@ -41,6 +44,7 @@ However, as always says, things did not go as expected. On my second day at Amaz
 In short, I was supposed to check more and talk more about what I will do seating in my seat, but I did not. As a consequence, I spent almost a year which does not align my career development.
 
 ### #3. Peers always let me move forward more.
+----
 
 As we all know, Amazon is the company which has tons of fluent engineers. Even James Gosling who is the father of Java language is distinguished engineer in AWS orgs. The resource pool of Amazon is amazing. My team does not have such "named" developers, but team members are coming from various background and experiences.
 
@@ -57,6 +61,7 @@ In Amazon, there is a policy which helps individual developer to grow regardless
 Also, normally, team member and the manager meet in an weekly-basis. During this time, we are aiming to solving how I can grow and how my manager helps me to handle my tasks. It is a little bit different that I had experienced in my previous company. I also had several meetings quarterly. However, the meeting's main focus is more like status check and usually happened some unusual event occured like leaves. Weekly or regular meeting with my manager feels me always connected with my higher leadership and caring about me in the management scope.
 
 ### #99. Ending
+----
 
 As you may noticed, this is my personal feeling about comparing my previous expereiences and current 1 year in this company. This feeling might change to an unfavorable way or get better.
 

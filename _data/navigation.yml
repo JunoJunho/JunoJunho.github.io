@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /aboutme
   - title: "Algorithm"
-    url: /categories/software_engineering/
+    url: /categories/algorithm/
   - title: "Learning"
     url: /categories/learning/
   - title: "Software Engineering"

@@ -8,6 +8,8 @@ main:
     url: /categories/learning/
   - title: "Software Engineering"
     url: /categories/software_engineering/
+  - title: "Finance"
+    url: /categories/finance/
   - title: "Posts by Tag"
     url: /tags/
   # - title: "Sample Posts"

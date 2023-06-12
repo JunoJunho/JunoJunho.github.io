@@ -55,9 +55,9 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : google # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -100,7 +100,7 @@ author:
   name             : "Junho Kim"
   avatar           : "/img/my_img.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "`To infinity and beyond`"
-  location         : "Somewhere"
+  location         : "Canada Vancouver"
   email            : wnsgh611@gmail.com
   links:
     - label: "Email"
@@ -202,7 +202,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 

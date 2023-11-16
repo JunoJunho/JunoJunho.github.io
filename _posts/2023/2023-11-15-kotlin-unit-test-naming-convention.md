@@ -10,7 +10,7 @@ categories:
 last_modified_at: 2023-11-15T23:24:00
 ---
 
-![ab819adc-5ed9-4027-a286-f1cc83d3cd47.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/9ae3e6c6-5107-4fb1-982d-5bcf0b0e75d1/92c27a88-8200-4a5f-8a37-ed98dfb602a5/ab819adc-5ed9-4027-a286-f1cc83d3cd47.png)
+![ab819adc-5ed9-4027-a286-f1cc83d3cd47.png](https://file.notion.so/f/f/9ae3e6c6-5107-4fb1-982d-5bcf0b0e75d1/92c27a88-8200-4a5f-8a37-ed98dfb602a5/ab819adc-5ed9-4027-a286-f1cc83d3cd47.png?id=56974ccc-56d9-446c-b034-ba28b572b5a7&table=block&spaceId=9ae3e6c6-5107-4fb1-982d-5bcf0b0e75d1&expirationTimestamp=1700265600000&signature=v8UqrEp-aLGL2xDWdzyKZoYdpf6LRjxct_zL42zXLZE&downloadName=ab819adc-5ed9-4027-a286-f1cc83d3cd47.png)
 
 요즘 회사에서는 새로운 프로젝트를 킥오프 할 때 자바를 사용하기 보다는 불가피한 제약사항이 존재하지 않는 한 코틀린을 사용하는 것이 대세아닌 대세로 자리잡았습니다. 여러모로 장점이 있고 무엇보다 JVM 위에서 동작하기 때문에 기존 자바 코드와의 호환성 문제도 크게 존재하지 않기 때문이죠. 게다가 제가 현재 재직중인 아마존은 모든 서비스를 마이크로 서비스로 만드는 것이 기본 개념이다 보니 이런 서비스간 의존성 문제에서 조금 더 자유로운 분위기에서 새로운 언어의 도입이 어려운 것은 아닙니다. 기존 서비스에 새로운 코드를 추가한다고 할지라도 코틀린으로 작성해도 결국에는 자바 코드로 변환되고, 다시 바이트코드로 변환되기 때문에 내부적으로 어떻게 변환되는지를 특별히 신경써야하는 로직이 아닌 이상 크게 문제될 점은 없습니다.
 

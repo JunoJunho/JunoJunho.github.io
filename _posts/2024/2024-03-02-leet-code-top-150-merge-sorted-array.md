@@ -10,6 +10,8 @@ tags: [Python, Coding Interview, Algorithm]
 last_modified_at: 2024-03-02T23:24:00
 ---
 
+Leet code link can be found [here](https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150)
+
 Problem
 --------
 

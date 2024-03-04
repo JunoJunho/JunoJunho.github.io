@@ -1,5 +1,5 @@
 ---
-title: [88.] Merge Sorted Array
+title: 88\. Merge Sorted Array
 excerpt: Leet Code Top Interview 150
 
 toc: true

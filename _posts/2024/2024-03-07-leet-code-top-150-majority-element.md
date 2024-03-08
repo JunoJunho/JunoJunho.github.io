@@ -47,30 +47,7 @@ Solution
 
 ```python
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
-        '''
-        Approach
-        Brute force -> face two consecutive numbers, squeeze till counts len(nums)
-        '''
-
-        if len(nums) == 1:
-            return 1
-
-        cursor = 0
-        prev = -100000
-        while cursor < len(nums):
-            if prev != nums[cursor]:
-                prev = nums[cursor]
-            else: #same
-                for i in range(len(nums) - 1, cursor, -1):
-                    if nums[i] == nums[cursor]:
-                        nums.pop(i)
-            cursor += 1
-        return len(nums)
-```
-
-
-class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         # Majority means the list always faces the value of majority at middle position
         return sorted(nums)[len(nums)//2]
+```
